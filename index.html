@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             head : 링크공유 했을 때 보이는 제목, 이미지를 설정해 두는 곳!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta property="og:title" content="orgazize.moonlife" />
+        <meta property="og:description" content="동영상크리에이터" />
+        <meta property="og:image" content="공유할 이미지" />
+        
+        <title>orgazize.moonlife</title>
+        <style>
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {font-family: "Pretendard",serif;}
+
+body {  background-color: #7fa349;
+        background-image: url('christmas_05.jpg');
+        background-position: center;
+        background-size: cover; }
+
+
+.profile {  width: 100px; height: 100px; background-color: green;
+            border-radius: 100%;
+            border: 2px solid white;
+            background-image: url('orgazize_moonlife.jpg');
+            background-position: center;
+            background-size: cover;}
+
+.main { color:white; font-size: 20px;
+        margin-top: 30px; margin-bottom: 10;} 
+
+.sub {  color: rgb(32, 32, 32); font-size: 14px;
+        margin-top: 0; margin-bottom: 5px;}
+
+.sub1 { color: rgb(32, 32, 32); font-size: 14px;
+        margin-top: 0; margin-bottom: 20px;}
+
+.wrap { width: 300px; 
+        margin:30px auto 0px auto;
+     
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;}
+
+    .wrap > a { width: 300px; height: 50px; background-color: white;
+                border-radius: 10px; 
+                margin-bottom: 10px;
+                font-size:14px;
+                font-weight: bold;
+                color: #585858;
+                 
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                text-decoration: none;
+
+                box-shadow: 3px 3px 5px 0px black ; }
+    .wrap > a:hover{background-color: #f7fce2;}                    
+        </style>
+    </head>
+
+
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main">organize.moonlife</h1>
+            <P class="sub">동영상 크리에이터</P>
+            <P class="sub1">Moon의 오피스 라이프</P>           
+            <a target="_blank" href="https://smartstore.naver.com/forthemoon/category/f44bbe5262274837a16d04c61ff3363e?cp=1">스마트 스토어</a>
+            <a target="_blank" href="https://www.instagram.com/organize.moonlife">Instagram</a>
+            <a target="_blank" href="https://www.tiktok.com/@organize.moonlife">Tictok</a>
+            <a target="_blank" href="https://smartstore.naver.com/forthemoon">포더문 PET</a>
+            <a target="_blank" href="https://www.forthemoon.co.kr">포더문 Jewerly</a>
+
+        </div>
+
+    </body>
+</html>
